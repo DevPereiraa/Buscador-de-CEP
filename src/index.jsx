@@ -10,7 +10,6 @@ function Index() {
   const [cep, setCep] = useState({})
 
   async function SearchClick() {
-    //01001000/json/
 
     if (input === '') {
       alert('Digite um CEP')
